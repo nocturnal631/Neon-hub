@@ -118,6 +118,12 @@ local Tab11 = Window:MakeTab({
 	PremiumOnly = false
 })
 
+local Tab12 = Window:MakeTab({
+	Name = "Doors",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
 Tab1:AddButton({
 	Name = "Ronix hub",
 	Callback = function()
@@ -206,6 +212,13 @@ Tab:AddButton({
 	Name = "Destroy the hub",
 	Callback = function()
       		OrionLib:Destroy()
+  	end    
+})
+
+Tab12:AddButton({
+	Name = "Floor 1",
+	Callback = function()
+      		loadstring(game:HttpGet('https://raw.githubusercontent.com/ExolutionProject/Scripts/main/ExolutionPremiumHub.lua'))()
   	end    
 })
 
