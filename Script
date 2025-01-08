@@ -1,0 +1,212 @@
+-- New draggable Orion Lib script for hub creations!
+local OrionLib = loadstring(game:HttpGet(('https://pastebin.com/raw/WRUyYTdY')))()
+
+
+local Window = OrionLib:MakeWindow({
+    Name = "Neon hub",
+    HidePremium = false,
+    SaveConfig = true,
+    ConfigFolder = "Neon hub" -- Put the name of your hub or script here!
+})
+
+print("Successfully executed.") -- Just a debug
+
+local Tab = Window:MakeTab({
+    Name = "Info",
+    Icon = "rbxassetid://1",
+    PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+    Name = "Info"
+})
+
+local playerName = game.Players.LocalPlayer.Name
+
+Tab:AddButton({
+    Name = "Welcome " .. playerName .. "! This is the best hub!",
+    Callback = function()
+    end
+})
+
+Tab:AddButton({
+    Name = "Check out our official discord server in your clipboard.",
+    Callback = function()
+        setclipboard("https://discord.gg/SAgTTJkzys")
+        toclipboard("https://discord.gg/SAgTTJkzys")
+  end    
+})
+
+Tab:AddButton({
+    Name = "Infinite Yield",
+    Callback = function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+  end    
+})
+
+
+Tab:AddButton({
+    Name = "Nameless Admin",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/ltseverydayyou/Nameless-Admin/main/Source.lua"))()
+  end    
+})
+
+local Tab1 = Window:MakeTab({
+	Name = "Bloxfruits",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Tab2 = Window:MakeTab({
+	Name = "Rivals",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Tab3 = Window:MakeTab({
+	Name = "prisonlife",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Tab4 = Window:MakeTab({
+	Name = "Arsenal",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Tab5 = Window:MakeTab({
+	Name = "fisch",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Tab6 = Window:MakeTab({
+	Name = "bee swarm simulator",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Tab7 = Window:MakeTab({
+	Name = "Piggy",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Tab8 = Window:MakeTab({
+	Name = "bedwars",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Tab9 = Window:MakeTab({
+	Name = "doors",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Tab10 = Window:MakeTab({
+	Name = "Bladeball",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Tab11 = Window:MakeTab({
+	Name = "The strongest battleground",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab1:AddButton({
+	Name = "Ronix hub",
+	Callback = function()
+      		loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/e7615a5199f111b700e361adb98b6add.lua"))()
+  	end    
+})
+
+Tab2:AddButton({
+	Name = "Ronix hub",
+	Callback = function()
+      		loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/2136f3786fd368193dd152c435d7ebfb.lua"))()
+  	end    
+})
+
+Tab3:AddButton({
+	Name = "Prizz life",
+	Callback = function()
+      		loadstring(game:HttpGet('https://raw.githubusercontent.com/devguy100/PrizzLife/main/Source/release_v0.8.1.lua'))()
+  	end    
+})
+
+Tab4:AddButton({
+	Name = "Ronix hub",
+	Callback = function()
+      		loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/bbfd6f90c7adab2c7ebc355c200ba7f1.lua"))()
+  	end    
+})
+
+Tab5:AddButton({
+	Name = "Ronix hub",
+	Callback = function()
+      		loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/ec32643721793227480ebe4d0980bda4.lua"))()
+  	end    
+})
+
+Tab6:AddButton({
+	Name = "Verbal hub",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/VerbalHubz/Verbal-Hub/refs/heads/main/Bee%20Swarm%20Sim.Lua",true))()
+  	end    
+})
+
+Tab7:AddButton({
+	Name = "Script book 1 and 2",
+	Callback = function()
+      		loadstring(game:HttpGet("https://encurtador.com.br/fiyFJ"))();
+  	end    
+})
+
+Tab8:AddButton({
+	Name = "Bedwars",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
+  	end    
+})
+
+Tab9:AddButton({
+	Name = "Doors",
+	Callback = function()
+      		loadstring(game:HttpGet('https://raw.githubusercontent.com/zoophiliaphobic/POOPDOORS/main/script.lua'))()
+  	end    
+})
+
+Tab10:AddButton({
+	Name = "redz hub",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/BladeBall/main/redz9999"))()
+  	end    
+})
+
+Tab1:AddButton({
+	Name = "Redz hub",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/realredz/BloxFruits/refs/heads/main/Source.lua"))()
+  	end    
+})
+
+Tab11:AddButton({
+	Name = "forge hub",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Skzuppy/forge-hub/main/loader.lua"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Destroy the hub",
+	Callback = function()
+      		OrionLib:Destroy()
+  	end    
+})
+
+OrionLib:Init()
