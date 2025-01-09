@@ -218,7 +218,7 @@ Tab:AddButton({
 Tab12:AddButton({
 	Name = "Vanta hub floor 1",
 	Callback = function()
-      		loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/5d9744f681f6e50ab3fc5d9eb45c7cc7.lua"))()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/FFJ1/Roblox-Exploits/main/scripts/Loader.lua"))()
   	end    
 })
 
