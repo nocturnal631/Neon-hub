@@ -127,7 +127,7 @@ local Tab12 = Window:MakeTab({
 Tab1:AddButton({
 	Name = "Ronix hub",
 	Callback = function()
-      		loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/e7615a5199f111b700e361adb98b6add.lua"))()
+      		loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/13dce5614736179317316003dc6d8fa2.lua"))()
   	end    
 })
 
